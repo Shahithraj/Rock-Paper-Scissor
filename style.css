@@ -1,0 +1,46 @@
+body {
+    padding: 0;
+    margin: 0;
+    /* width: 100%;
+    height: 100%; */
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    background: #1c1c1c;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+  }
+
+  button {
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+    font-size: 48px;
+    border-radius: 30px;
+  }
+
+  .resultContainer {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    align-items: center;
+  }
+
+  .score-container {
+    display: flex;
+    gap:10px;
+    flex-direction: column;
+  }
