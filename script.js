@@ -93,8 +93,15 @@ function endGame() {
   hands.innerHTML = '';
   result.innerHTML = '';
   computerScore.innerHTML = '';
-  scores.playerScore = 0
-  scores.computerScore = 0
+  if (scores.playerScore > scores.computerScore) {
+    alert('You win the match');
+  } else if (scores.playerScore < scores.computerScore) {
+    alert('You Lost');
+  } else {
+    alert('Match Draw');
+  }
+  scores.playerScore = 0;
+  scores.computerScore = 0;
 }
 
 playGame();
